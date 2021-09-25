@@ -1,20 +1,133 @@
 /* 
     font-family: 'Lato', sans-serif;
 
-    font-family: 'Love Ya Like A Sister', cursive; */
+    font-family: 'Love Ya Like A Sister', cursive; 
 
+    colour
+    blue: rgba(0, 76, 92, 1); 
+    blue2: rgba(52, 100, 115, 1);
+    green: rgba(89, 148, 80, 1);
+    light green: rgba(236, 239, 216, 1);
+    yellow: rgba(238, 214, 144, 1);
+    yelloworange: rgba(241, 197, 80, 1);
+    white: rgba(255, 252, 240, 1);
+    #004C5C;
+    #346473;
+    #599450;
+    #ECEFD8; 
+    #EED690;
+    #F1C550;
+    #FFFCF0;
 
+    
+    */
 
+* {
+    background-color: #FFFCF0;
+}
 
+img {
+    width: 20%;
+    height: auto;
+}
 
-h1{
-font-family: 'Love Ya Like A Sister', cursive;
+h1 {
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 110%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #004C5C;
+}
+
+h2 {
+    font-family: Love Ya Like A Sister;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #004C5C;
+}
+
+h3 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #004C5C;
+}
+
+h4 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #004C5C;
+}
+
+h5 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.015em;
+    text-transform: capitalize;
+    color: #004C5C;
+}
+
+h6 {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #004C5C;
+}
+
+body {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: justify;
+    color: #004C5C;
 }
 
 ul {
     list-style-type: none;
-    padding: 0; 
-    margin: 0; 
-  }
- 
+    padding: 0;
+    margin: 0;
+}
 
+#homeicons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+
+header h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+header p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {}
