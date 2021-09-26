@@ -26,6 +26,12 @@
   background-color: #fffcf0;
 }
 
+ul{
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+}
+
 img {
   max-width: 50%;
   height: auto;
@@ -125,23 +131,23 @@ header p {
 }
 
 .welcomeicon {
-  list-style: none;
   text-align: center;
-  width: auto;
-  margin: auto;
+  /* max-width: 50% image is not even */
+  width: 50%;
+  height: auto;
   padding-top: 5%;
-  text-align: center;
 }
 
 #icons {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
+  /* image uneven with margin */
+  width: auto;
+  margin: 0% 20%;
 }
 
 #logout {
-    margin: 20% auto;
+    margin: 5% auto;
     padding: 0.8% 1%;
     border: 5px solid #EED690;
     border-radius: 15px;
