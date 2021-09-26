@@ -23,110 +23,130 @@
     */
 
 * {
-    background-color: #FFFCF0;
+  background-color: #fffcf0;
 }
 
 img {
-    width: 20%;
-    height: auto;
+  max-width: 50%;
+  height: auto;
 }
 
 h1 {
-    font-family: Love Ya Like A Sister;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2rem;
-    line-height: 110%;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #004C5C;
+  font-family: Love Ya Like A Sister;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 2rem;
+  line-height: 110%;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #004c5c;
 }
 
 h2 {
-    font-family: Love Ya Like A Sister;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 37px;
-    text-transform: uppercase;
-    color: #004C5C;
+  font-family: Love Ya Like A Sister;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #004c5c;
 }
 
 h3 {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: uppercase;
-    color: #004C5C;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #004c5c;
 }
 
 h4 {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: capitalize;
-    color: #004C5C;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #004c5c;
 }
 
 h5 {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.015em;
-    text-transform: capitalize;
-    color: #004C5C;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.015em;
+  text-transform: capitalize;
+  color: #004c5c;
 }
 
 h6 {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 19px;
-    text-transform: uppercase;
-    color: #004C5C;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #004c5c;
 }
 
 body {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 120%;
-    text-align: justify;
-    color: #004C5C;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: justify;
+  color: #004c5c;
 }
 
 #homeicons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
 }
 
 header h1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
 }
 
 header p {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  text-align: justify;
+  width: 80%;
+  margin: auto;
+  padding: auto;
+  width: 40%;
 }
 
+.welcomeicon {
+  list-style: none;
+  text-align: center;
+  width: auto;
+  margin: auto;
+  padding-top: 5%;
+  text-align: center;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#logout {
+    margin: 20% auto;
+    padding: 0.8% 1%;
+    border: 5px solid #EED690;
+    border-radius: 15px;
+    text-align: center;
+    
+    max-width: 8%;
+    height: auto;    
+}
