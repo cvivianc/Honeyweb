@@ -14,16 +14,13 @@
 
 <body>
     <header>
-        <div class="logo">
+        <div id="logo">
             <a href="index.html"><img src="img/home.svg" alt="icon button to home"></a>
-            <h2>Home</h2>
         </div>
         <h1>time for an adventure!</h1>
     </header>
 
-    <!-- nav or section? -->
-    <nav id="filter">
-    <!-- section or div -->
+    <div id="filter">
         <ul>
             <li>
                 <img src="img/function/type.svg" alt="honey type list">
@@ -31,66 +28,72 @@
 
             <li class="sliderbox">
                 <h6>Calories</h6>
-                <p>Low</p>
-                <p>High</p>
+                <div class="sliderlevel">
+                    <p>Low</p>
+                    <p>High</p>
+                </div>
                 <img src="img/function/slider.svg" alt="slider">
             </li>
 
             <li class="sliderbox">
                 <h6>Difficulty</h6>
-                <p>Easy</p>
-                <p>Hard</p>
+                <div class="sliderlevel">
+                    <p>Easy</p>
+                    <p>Hard</p>
+                </div>
                 <img src="img/function/slider.svg" alt="slider">
             </li>
 
             <li class="sliderbox">
                 <h6>Location</h6>
-                <p>0km</p>
-                <p>50km</p>
+                <div class="sliderlevel">
+                    <p>0km</p>
+                    <p>50km</p>
+                </div>
                 <img src="img/function/slider.svg" alt="slider">
             </li>
+
         </ul>
-    </nav>
+    </div>
+
+    <figure>
+        <img src="img/map.png" alt="forest map">
+    </figure>
 
     <main>
-        <figure>
-            <img src="img/map.png" alt="forest map">
-        </figure>
+        <secion>
+            <figure>
+                <a href="honeyinfo.html#euca"><img src="img/icons/eucalyptus.svg" alt="honey icon"></a>
+            </figure>
+            <h3>eucalyptus honey</h3>
+            <h5>600KJ</h5>
+        </secion>
 
-        <main>
-            <secion>
+        <article>
+            <section class="routeinfo">
+                <h5>Benefit</h5>
+                <p>
+                    Reduction of inflammation in IBS and ulcerative colitis patients, those with acne, and potentially, patients with cystic fibrosis. The honey is commonly suggested by naturopathic heaters to treat sore throats and to maintain good oral health.
+                </p>
+            </section>
+
+            <section class="routeinfo">
+                <h5>Environment</h5>
+                <p>
+                    Flowers of the Tea Tree bush. Apis Mellifera bees, not as aggressive as other types of honey bees and they are able to produce an impressively large amount of honey regularly.
+                </p>
+            </section>
+
+            <section class="routeinfo">
+                <h5>Difficulty</h5>
                 <figure>
-                    <a href="honeyinfo.html#euca"><img src="img/honey/eucalyptus.svg" alt="forest map"></a>
+                    <img src="img/star.svg" alt="difficulty stars"></a>
                 </figure>
-                <h3>eucalyptus honey</h3>
-                <h5>600KJ</h5>
-            </secion>
+            </section>
 
-            <article>
-                <section class="routeinfo">
-                    <h5>Benefit</h5>
-                    <p>
-                        Reduction of inflammation in IBS and ulcerative colitis patients, those with acne, and potentially, patients with cystic fibrosis. The honey is commonly suggested by naturopathic heaters to treat sore throats and to maintain good oral health.
-                    </p>
-                </section>
+        </article>
 
-                <section class="routeinfo">
-                    <h5>Environment</h5>
-                    <p>
-                        Flowers of the Tea Tree bush. Apis Mellifera bees, not as aggressive as other types of honey bees and they are able to produce an impressively large amount of honey regularly.
-                    </p>
-                </section>
-
-                <section class="routeinfo">
-                    <h5>Difficulty</h5>
-                    <figure>
-                        <img src="img/star.svg" alt="difficulty stars"></a>
-                    </figure>
-                </section>
-
-            </article>
-
-        </main>
+    </main>
 
 
 
