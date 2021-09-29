@@ -196,10 +196,41 @@ main article {
 
 .sliderbox {
     display: grid;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
+    max-width: 40vw;
+    grid-template-areas: "title title" "level level2" "slider slider";
+    grid-template-rows: 30px 35px;
+    grid-template-columns: 165px;
+    padding: 0%;
+    margin-left: 2vw;
+}
+
+#filter ul {
+    display: grid;
+    grid-column: 1fr;
+    grid-row: 1fr;
+    margin-bottom: 6%;
+}
+
+#filter img {
     width: 200px;
+    height: auto;
+}
+
+.item1 {
+    grid-area: title;
+    margin: 1vw 0% 2vw;
+}
+
+.item2 {
+    grid-area: level;
+}
+
+.item3 {
+    grid-area: level2;
+}
+
+.item4 {
+    grid-area: slider;
 }
 
 @media (min-device-width: 50px) and (max-device-width: 670px) {
