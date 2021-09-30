@@ -1,246 +1,325 @@
-/* 
-    font-family: 'Lato', sans-serif;
-
-    font-family: 'Love Ya Like A Sister', cursive; 
-
-    colour
-    blue: rgba(0, 76, 92, 1); 
-    blue2: rgba(52, 100, 115, 1);
-    green: rgba(89, 148, 80, 1);
-    light green: rgba(236, 239, 216, 1);
-    yellow: rgba(238, 214, 144, 1);
-    yelloworange: rgba(241, 197, 80, 1);
-    white: rgba(255, 252, 240, 1);
-    #004C5C;
-    #346473;
-    #599450;
-    #ECEFD8; 
-    #EED690;
-    #F1C550;
-    #FFFCF0; white
-
-    
-    */
-
-* {
-    background-color: #fffcf0;
-    box-sizing: border-box;
-    list-style: none;
-}
-
-h1 {
-    font-family: Love Ya Like A Sister;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 2rem;
-    line-height: 110%;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: #004c5c;
-}
-
-h2 {
-    font-family: Love Ya Like A Sister;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 37px;
-    text-transform: uppercase;
-    color: #004c5c;
-}
-
-h3 {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: #004c5c;
-}
-
-h4 {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
-    text-transform: capitalize;
-    color: #004c5c;
-}
-
-h5 {
-    font-family: Lato;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 22px;
-    letter-spacing: 0.015em;
-    text-transform: capitalize;
-    color: #004c5c;
-}
-
-h6 {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 1rem;
-    text-transform: uppercase;
-    color: #004c5c;
-}
-
-p {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 120%;
-    text-align: justify;
-    color: #004c5c;
-}
-
-header h1 {
-    margin: 1vw auto 3vw;
-    text-align: center;
-}
-
-header p {
-    max-width: 50vw;
-    margin: auto;
-    padding: 0vw 1vw 0.7vw 1vw;
-}
-
-#logo img {
-    height: auto;
-    max-width: 20vw;
-}
-
-#homeicons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0%;
-}
-
-.iconbox {
-    display: flex;
-    flex-direction: column;
-    padding: 5% 3% 2%;
-}
-
-#welcomenav {
-    display: flex;
-    s flex-direction: row;
-    justify-content: space-evenly;
-    text-align: center;
-    margin: auto;
-    padding: 0%;
-}
-
-#logout {
-    border: 5px solid #EED690;
-    border-radius: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    max-width: 120px;
-    padding: 15px 0.5%;
-    margin: 5% auto;
-    z-index: 1;
-}
-
-#topbutton {
-    display: flex;
-    justify-content: flex-end;
-    margin: 2% 5%;
-}
-
-.typeicon {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-right: 3%;
-}
-
-section h5 {
-    margin: 0% auto 1vw;
-}
-
-section p {
-    width: 50vw;
-    margin: 0% auto 4vw;
-}
-
-.contentinfo {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 60%;
-    margin: 3vw 4vw;
-    margin-top: 0%;
-}
-
-.findbutton {
-    margin-bottom: 3vw;
-}
-
-main article {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 85%;
-    margin: 1% auto 3%;
-}
-
-.sliderbox {
-    display: grid;
-    max-width: 40vw;
-    grid-template-areas: "title title" "level level2" "slider slider";
-    grid-template-rows: 30px 35px;
-    grid-template-columns: 165px;
-    padding: 0%;
-    margin-left: 2vw;
-}
-
-#filter ul {
-    display: grid;
-    grid-column: 1fr;
-    grid-row: 1fr;
-    margin-bottom: 6%;
-}
-
-#filter img {
-    width: 200px;
-    height: auto;
-}
-
-.item1 {
-    grid-area: title;
-    margin: 1vw 0% 2vw;
-}
-
-.item2 {
-    grid-area: level;
-}
-
-.item3 {
-    grid-area: level2;
-}
-
-.item4 {
-    grid-area: slider;
-}
-
-@media (min-device-width: 50px) and (max-device-width: 670px) {
-    #welcomenav {
-        flex-direction: column;
-    }
-    ul li {
-        padding: 2% 0%;
-    }
-    main article {
-        flex-direction: column;
-    }
-}
+ * {
+     box-sizing: border-box;
+     list-style: none;
+ }
+ 
+ body {
+     background-color: #fffcf0;
+ }
+ /* text styles */
+ 
+ h1 {
+     font-family: Love Ya Like A Sister;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 2rem;
+     line-height: 110%;
+     letter-spacing: 0.1em;
+     text-transform: uppercase;
+     color: #004c5c;
+ }
+ 
+ h2 {
+     font-family: Love Ya Like A Sister;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 30px;
+     line-height: 37px;
+     text-transform: uppercase;
+     color: #004c5c;
+ }
+ 
+ h3 {
+     font-family: Lato;
+     font-style: normal;
+     font-weight: 800;
+     font-size: 20px;
+     text-transform: uppercase;
+     color: #004c5c;
+ }
+ 
+ h4 {
+     font-family: Lato;
+     font-style: normal;
+     font-weight: 600;
+     font-size: 20px;
+     line-height: 24px;
+     text-transform: capitalize;
+     color: #004c5c;
+ }
+ 
+ h5 {
+     font-family: Lato;
+     font-weight: 500;
+     font-size: 18px;
+     line-height: 22px;
+     letter-spacing: 0.015em;
+     text-transform: capitalize;
+     color: #004c5c;
+ }
+ 
+ h6 {
+     font-family: Lato;
+     font-style: normal;
+     font-weight: bold;
+     font-size: 1rem;
+     text-transform: uppercase;
+     color: #004c5c;
+ }
+ 
+ p {
+     font-family: Lato;
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 120%;
+     text-align: justify;
+     color: #004c5c;
+ }
+ 
+ header h1 {
+     margin: 1vw auto 3vw;
+     text-align: center;
+ }
+ 
+ header p {
+     max-width: 50vw;
+     margin: auto;
+     padding: 0vw 1vw 0.7vw 1vw;
+ }
+ /* text styles ends*/
+ /* index.html styles */
+ 
+ #logo img {
+     height: auto;
+     max-width: 20vw;
+ }
+ 
+ #homeicons {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     padding: 0%;
+ }
+ 
+ .iconbox {
+     display: flex;
+     flex-direction: column;
+     padding: 5% 3% 2%;
+ }
+ 
+ #welcomenav {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     text-align: center;
+     margin: auto;
+     padding: 0%;
+ }
+ 
+ #logout {
+     border: 5px solid #EED690;
+     border-radius: 16px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     max-width: 120px;
+     padding: 15px 0.5%;
+     margin: 5% auto;
+     z-index: 1;
+ }
+ /* index.html styles ends */
+ /* honeyinfo.html styles */
+ 
+ #topbutton {
+     display: flex;
+     justify-content: flex-end;
+     margin: 2% 5%;
+ }
+ 
+ .typeicon {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     align-items: center;
+     margin-right: 3%;
+ }
+ 
+ section h5 {
+     margin: 0% auto 1vw;
+ }
+ 
+ section p {
+     width: 50vw;
+     margin: 0% auto 4vw;
+ }
+ 
+ .contentinfo {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     width: 60%;
+     margin: 3vw 4vw;
+     margin-top: 0%;
+ }
+ 
+ .findbutton {
+     margin-bottom: 3vw;
+ }
+ 
+ .typesection {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 85%;
+     margin: 1% auto 3%;
+ }
+ /* honeyinfo.html styles ends */
+ /* adventure.html styles */
+ 
+ .sliderbox {
+     display: grid;
+     grid-template-areas: "title title" "level level2" "slider slider";
+     grid-template-rows: 30px 35px;
+     grid-template-columns: 165px;
+     margin-left: 0%;
+ }
+ 
+ #filter ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+     align-items: center;
+     padding: 0%;
+ }
+ 
+ #filter {
+     margin: 2vw;
+ }
+ 
+ #filter img {
+     width: 200px;
+     height: auto;
+     margin: 0%;
+ }
+ /* adventure.html grid styles */
+ 
+ #mapgrid {
+     display: grid;
+     grid-template-rows: repeat(autofit, minmax(50px, 1fr));
+     grid-template-columns: repeat(autofit, minmax(120px, 1fr));
+     align-items: start;
+     max-height: 900px;
+     margin: 3vw;
+ }
+ 
+ #eucaicon img,
+ #eucaicon h3,
+ #eucaicon h5 {
+     max-width: 20vw;
+     margin-bottom: 1vw;
+     margin-top: 0vw;
+ }
+ 
+ .routeinfo h5 {
+     color: #599450;
+     margin: 0%;
+ }
+ 
+ #map {
+     max-width: 40vw;
+     max-height: 60vw;
+     margin: auto;
+     grid-area: 1 /1;
+ }
+ 
+ #allinfo {
+     grid-area: 1/2;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+ }
+ 
+ #saveinfo img {
+     max-width: 15vw;
+     margin-top: 1vw;
+     height: auto;
+ }
+ 
+ .item1 {
+     grid-area: title;
+     margin-top: 10px;
+ }
+ 
+ .item2 {
+     grid-area: level;
+ }
+ 
+ .item3 {
+     grid-area: level2;
+ }
+ 
+ .item4 {
+     grid-area: slider;
+ }
+ 
+ @media (min-device-width: 50px) and (max-device-width: 670px) {
+     #welcomenav {
+         flex-direction: column;
+     }
+     ul li {
+         padding: 2% 0%;
+     }
+     main article {
+         flex-direction: column;
+     }
+ }
+ 
+ @media (min-device-width: 50px) and (max-device-width: 895px) {
+     #filter ul {
+         display: flex;
+         flex-direction: column;
+         justify-content: space-evenly;
+         flex-wrap: wrap;
+         align-items: center;
+         padding: 0%;
+     }
+     #map {
+         max-width: 80vw;
+         height: auto;
+         margin: auto;
+         grid-area: 1 /1;
+         display: flex;
+         justify-content: center;
+     }
+     #allinfo {
+         grid-area: 2/1;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         flex-wrap: wrap;
+         align-items: flex-start;
+         margin: auto;
+         align-self: center;
+     }
+     #mapgrid {
+         display: grid;
+         grid-template-rows: repeat(autofit, minmax(50px, 1fr));
+         grid-template-columns: repeat(autofit, minmax(120px, 1fr));
+         align-items: start;
+         max-height: 900px;
+         grid-row-gap: 3%;
+         margin: 3vw;
+     }
+     #saveinfo {
+         margin: auto;
+     }
+     #eucaicon {
+         margin: auto;
+     }
+ }
