@@ -323,3 +323,23 @@
          margin: auto;
      }
  }
+ /* hover */
+ 
+ #logout:hover {
+     background-color: #EED690;
+ }
+ 
+ .iconbox img:hover {
+     border-radius: 100%;
+     box-shadow: -1px 1px 10px 5px rgba(89, 148, 80, 0.3);
+ }
+ 
+ #eucaicon img:hover {
+     border-radius: 100%;
+     box-shadow: -1px 1px 10px 5px rgba(89, 148, 80, 0.3);
+ }
+ 
+ .findbutton img:hover {
+     border-radius: 100%;
+     box-shadow: 0px 1.63366px 8.16832px rgba(0, 76, 92, 0.5);
+ }
